@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import Head from "next/head";
 import { getProducts } from "@/services";
@@ -13,7 +12,6 @@ export default function Home({ products }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <div className="container mx-auto p-5 mb-8">
         <main className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-3 col-span-1">

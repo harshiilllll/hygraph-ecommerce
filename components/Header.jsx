@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <nav className="flex bg-slate-900 items-center relative justify-between  p-5 w-full">
-      <h2 className="text-white">EcommerceApp</h2>
+      <Link href={`/`} className="text-white">EcommerceApp</Link>
       <ul className="text-white flex items-center justify-center space-x-3">
         <li>
             <Link href={`/`}>Home</Link>
