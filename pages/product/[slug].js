@@ -22,6 +22,7 @@ export async function getStaticProps({ params }) {
   const data = await getProductDetail(params.slug);
   return {
     props: { product: data },
+    revalidate: 60,
   };
 }
 
